@@ -10,8 +10,8 @@ $disp_url = 'bookings_disp.php';
 $edit_url = 'locations_edit.php';
 
 $execute_query = $is_query = true;
-$txtkeyword = $cond = $params = $params2 = '';
-$cmbstatus='A';
+$txtkeyword = $cond = $params = $params2 = $txtdateFrom = $txtDateTo = '';
+$cmbstatus = 'A';
 $srch_style = 'display:none;';
 
 $COUNTRY_ARR = GetXArrFromYID('select iCountryID, vName from country where cStatus!="X" order by iCountryID', '3');
@@ -22,26 +22,40 @@ $LOC_ARR = GetXArrFromYID("select iLocationID,vName from location where cStatus=
 if (isset($_POST['srch_mode']) && $_POST['srch_mode'] == 'SUBMIT') {
   $txtkeyword = $_POST['txtkeyword'];
   $cmbstatus = $_POST['cmbstatus'];
+  $txtdateFrom = $_POST['txtDateFrom'];
+  $txtDateTo = $_POST['txtDateTo'];
 
-  $params = '&keyword=' . $txtkeyword.'&cmbstatus='.$cmbstatus;
+  $params = '&keyword=' . $txtkeyword . '&cmbstatus=' . $cmbstatus. '&txtDateTo='. $txtDateTo. '&txtDateFrom='. $txtdateFrom;
   header('location: ' . $disp_url . '?srch_mode=QUERY' . $params);
 } else if (isset($_GET['srch_mode']) && $_GET['srch_mode'] == 'QUERY') {
   $is_query = true;
 
   if (isset($_GET['keyword'])) $txtkeyword = $_GET['keyword'];
   if (isset($_GET['cmbstatus'])) $cmbstatus = $_GET['cmbstatus'];
+  if (isset($_GET['txtDateTo'])) $txtDateTo = $_GET['txtDateTo'];
+  if (isset($_GET['txtDateFrom'])) $txtDateFrom = $_GET['txtDateFrom'];
 
-  $params2 = '?keyword=' . $txtkeyword.'&cmbstatus='.$cmbstatus;
+  $params2 = '?keyword=' . $txtkeyword . '&cmbstatus=' . $cmbstatus . '&txtDateTo=' . $txtDateTo . '&txtDateFrom=' . $txtdateFrom;
 } else if (isset($_GET['srch_mode']) && $_GET['srch_mode'] == 'MEMORY')
   SearchFromMemory($MEMORY_TAG, $disp_url);
 
 if (!empty($txtkeyword)) {
-  $cond .= " and (vName LIKE '%" . $txtkeyword . "%')";
+  $cond .= " and (vFname LIKE '%" . $txtkeyword . "%')";
   $execute_query = true;
 }
 
 if (!empty($cmbstatus)) {
   $cond .= " and cStatus='$cmbstatus'";
+  $execute_query = true;
+}
+
+if (!empty($txtDateTo)) {
+  $cond .= " and date_format(dtFrom,'%Y-%m-%d')<='$txtDateTo'";
+  $execute_query = true;
+}
+
+if (!empty($txtDateFrom)) {
+  $cond .= " and date_format(dtFrom,'%Y-%m-%d')>='$txtDateFrom'";
   $execute_query = true;
 }
 
@@ -82,7 +96,13 @@ if ($execute_query) {
                         <input type="text" name="txtkeyword" id="txtkeyword" value="<?php echo $txtkeyword; ?>" placeholder="Keywords" class="form-control" />
                       </div>
                       <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group">
-                        <?php echo FillCombo2022('cmbstatus',$cmbstatus,$STATUS_ARR,'payment status');?>
+                        <?php echo FillCombo2022('cmbstatus', $cmbstatus, $STATUS_ARR, 'payment status'); ?>
+                      </div>
+                      <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group">
+                        <input type="date" name="txtDateFrom" id="txtDateFrom" value="<?php echo $txtDateFrom; ?>">
+                      </div>
+                      <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group">
+                        <input type="date" name="txtDateTo" id="txtDateTo" value="<?php echo $txtDateTo; ?>">
                       </div>
                       <div class="page-title-actions">
                         <div class="d-inline-block dropdown">

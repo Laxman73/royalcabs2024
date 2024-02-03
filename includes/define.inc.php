@@ -34,7 +34,7 @@ define('MONTH_START2', date("01-m-Y"));
 define('MONTH_YEAR', date("mY"));
 define('TODAY1',date("Ymd"));
 
-define('URL_REWRITTING','ON');
+define('URL_REWRITTING','OFF');
 define('PROJ_DELIMITER', '[DCC_BREAK]');
 $STARTOFMONTH="01-".THIS_MONTH."-".THIS_YEAR;
 
