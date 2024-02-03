@@ -1,0 +1,567 @@
+[08-Jan-2024 08:07:44 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 28
+[08-Jan-2024 08:07:44 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 123
+[08-Jan-2024 08:07:44 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 181
+[08-Jan-2024 08:07:44 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 190
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/save_booking.php on line 26
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/save_booking.php on line 26
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/save_booking.php on line 27
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/save_booking.php on line 27
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/save_booking.php on line 28
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/save_booking.php on line 28
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[09-Jan-2024 08:54:40 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 28
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 32
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 32
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 92
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 92
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 123
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 145
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 164
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 181
+[10-Jan-2024 21:10:49 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 190
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 28
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 32
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 32
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 92
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 92
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 123
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 145
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 164
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 181
+[10-Jan-2024 23:21:24 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 190
+[11-Jan-2024 13:09:30 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/royalcabs3/public_html/webhook_plural.php on line 45
+[11-Jan-2024 12:29:25 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/royalcabs3/public_html/index-latest.php on line 1336
+[12-Jan-2024 10:39:33 UTC] PHP Notice:  Undefined offset: 45 in /home/royalcabs3/public_html/contact_mail.php on line 40
+[12-Jan-2024 10:40:19 UTC] PHP Notice:  Undefined offset: 45 in /home/royalcabs3/public_html/contact_mail.php on line 42
+[12-Jan-2024 10:41:02 UTC] PHP Notice:  Undefined offset: 45 in /home/royalcabs3/public_html/contact_mail.php on line 42
+[12-Jan-2024 10:49:49 UTC] PHP Notice:  Undefined offset: 45 in /home/royalcabs3/public_html/contact_mail.php on line 42
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 288
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to get property 'fNightCharges' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 288
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 95
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 95
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 288
+[12-Jan-2024 11:15:40 UTC] PHP Notice:  Trying to get property 'fNightCharges' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 288
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 288
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to get property 'fNightCharges' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 288
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 95
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 95
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 288
+[12-Jan-2024 11:18:40 UTC] PHP Notice:  Trying to get property 'fNightCharges' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 288
+[16-Jan-2024 05:11:30 UTC] PHP Notice:  Undefined index: y#vyUpu266E in /home/royalcabs3/public_html/contact_mail.php on line 43
+[16-Jan-2024 07:29:38 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 41
+[16-Jan-2024 07:29:38 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 42
+[16-Jan-2024 07:29:38 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 43
+[16-Jan-2024 07:29:38 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 44
+[19-Jan-2024 03:54:37 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 42
+[20-Jan-2024 18:48:23 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 41
+[20-Jan-2024 18:48:23 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 42
+[20-Jan-2024 18:48:23 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 43
+[20-Jan-2024 18:48:23 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 44
+[22-Jan-2024 05:05:27 UTC] PHP Notice:  Undefined offset: 48 in /home/royalcabs3/public_html/contact_mail.php on line 78
+[22-Jan-2024 05:05:27 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 79
+[22-Jan-2024 05:09:10 UTC] PHP Notice:  Undefined offset: 48 in /home/royalcabs3/public_html/contact_mail.php on line 81
+[22-Jan-2024 05:09:10 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/contact_mail.php on line 82
+[23-Jan-2024 08:27:39 UTC] PHP Notice:  Undefined variable: vehData in /home/royalcabs3/public_html/save_booking.php on line 97
+[23-Jan-2024 08:27:39 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 110
+[23-Jan-2024 08:27:39 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 116
+[23-Jan-2024 08:27:39 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 147
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[23-Jan-2024 20:31:50 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[24-Jan-2024 03:14:44 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[24-Jan-2024 09:17:39 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[25-Jan-2024 05:35:42 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[25-Jan-2024 07:58:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/save_booking.php on line 74
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/save_booking.php on line 74
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/save_booking.php on line 75
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/save_booking.php on line 75
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/save_booking.php on line 76
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/save_booking.php on line 76
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/save_booking.php on line 83
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[25-Jan-2024 07:59:23 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[25-Jan-2024 09:41:13 UTC] PHP Notice:  Undefined variable: vehData in /home/royalcabs3/public_html/save_booking.php on line 97
+[25-Jan-2024 09:41:13 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 110
+[25-Jan-2024 09:41:13 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 116
+[25-Jan-2024 09:41:13 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 147
+[25-Jan-2024 15:11:23 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/royalcabs3/public_html/webhook_plural.php on line 45
+[25-Jan-2024 09:42:05 UTC] PHP Notice:  Undefined variable: vehData in /home/royalcabs3/public_html/save_booking.php on line 97
+[25-Jan-2024 09:42:05 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 110
+[25-Jan-2024 09:42:05 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 116
+[25-Jan-2024 09:42:05 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 147
+[25-Jan-2024 15:12:22 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/royalcabs3/public_html/webhook_plural.php on line 45
+[26-Jan-2024 12:22:42 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/royalcabs3/public_html/webhook_plural.php on line 45
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[27-Jan-2024 19:05:18 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[30-Jan-2024 06:40:37 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[30-Jan-2024 09:19:10 UTC] PHP Notice:  Undefined variable: vehData in /home/royalcabs3/public_html/save_booking.php on line 97
+[30-Jan-2024 09:19:10 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 110
+[30-Jan-2024 09:19:10 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 116
+[30-Jan-2024 09:19:10 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/save_booking.php on line 147
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[31-Jan-2024 18:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[31-Jan-2024 19:48:15 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[01-Feb-2024 02:20:01 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[01-Feb-2024 02:20:11 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[02-Feb-2024 06:26:55 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[02-Feb-2024 10:41:43 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[02-Feb-2024 10:48:30 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[02-Feb-2024 10:49:28 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[02-Feb-2024 11:48:45 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[02-Feb-2024 11:51:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[02-Feb-2024 11:51:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[02-Feb-2024 11:52:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[02-Feb-2024 11:54:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[02-Feb-2024 11:54:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[02-Feb-2024 12:07:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[02-Feb-2024 13:03:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[02-Feb-2024 18:58:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[02-Feb-2024 18:59:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[02-Feb-2024 18:59:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 31
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to get property 'vPic' of non-object in /home/royalcabs3/public_html/summary.php on line 35
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to get property 'vName' of non-object in /home/royalcabs3/public_html/summary.php on line 98
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 129
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to get property 'fBaseDistanceInKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 273
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to get property 'fBaseFare' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 274
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Trying to get property 'fAdditionalPerKM' of non-object in /home/royalcabs3/public_html/includes/custom.php on line 279
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 151
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 170
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 188
+[02-Feb-2024 21:38:52 UTC] PHP Notice:  Undefined index:  in /home/royalcabs3/public_html/summary.php on line 198
+[03-Feb-2024 00:37:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[03-Feb-2024 00:37:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[03-Feb-2024 04:24:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[03-Feb-2024 04:24:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[03-Feb-2024 04:26:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[03-Feb-2024 04:26:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[03-Feb-2024 04:26:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[03-Feb-2024 04:28:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[03-Feb-2024 04:28:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[03-Feb-2024 04:28:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141
+[03-Feb-2024 04:28:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/royalcabs3/public_html/_getCars.php on line 141

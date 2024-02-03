@@ -1,0 +1,116 @@
+<?php
+include_once "includes/common_front.php";
+
+$PAGE_TITLE2 = 'Contact Us';
+$PAGE_TITLE .= $PAGE_TITLE2;
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<?php include '_load_header.php';?>
+    </head>
+	<body>
+    
+    <?php include '_header.php';?>
+    
+	<section class="ftco-section" style="background-image: url('images/Contact-banner.png');background-size: cover;background-repeat: no-repeat;background-position: 50% 0px;">
+		<div class="container">
+			<div class="row justify-content-center mb-5">
+			<div class="col-md-7 text-center heading-section">
+			
+			    <br><br><br><br><br><br>
+				<h2 class="mb-3 text-white">Contact us</h2>
+                
+				
+			</div>
+			</div>
+		</div>	
+	</section>
+	
+	
+		
+
+	<section class="ftco-section" >
+		<div class="container">
+			
+        <div class="row d-flex contact-info">
+        	<div class="col-md-4">
+					
+				<div class="heading-section ftco-animate text-white">
+					<h2 class="text-black">Get in Touch</h2>
+				</div>
+				
+			
+        		<div class="row mb-5 mt-40">
+		          <div class="col-md-12">
+		          	<div class=" w-100 rounded mb-2 d-flex1">
+			          	<div class="icon mr-3">
+			          		<span class="icon-map-o"></span>
+			          	</div>
+			            <p class="m-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+			        </div>
+		          </div>
+		          <div class="col-md-12">
+		          	<div class="w-100 rounded mb-2 d-flex1">
+			          	<div class="icon mr-3">
+			          		<span class="icon-mobile-phone"></span>
+			          	</div>
+			            <p class="m-0">+91 12345 67890</p>
+			        </div>
+		          </div>
+		          <div class="col-md-12">
+		          	<div class="w-100 rounded mb-2 d-flex1">
+			          	<div class="icon mr-3">
+			          		<span class="icon-envelope-o"></span>
+			          	</div>
+			            <p class="m-0">name@email.com</p>
+			        </div>
+		          </div>
+		        </div>
+				
+            </div>
+			
+			<div class="col-md-8 block-9">
+				<form action="#" class="p-5 contact-form b card-over1">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Enter full name">
+					</div>
+					
+					<div class="form-group">
+						<input type="email" class="form-control"  placeholder="Enter email">
+					</div>
+					
+					<div class="form-group">
+						<input type="tel" class="form-control" placeholder="Enter mobile number">
+					</div>
+				
+					<div class="form-group">
+						<textarea class="form-control" placeholder="Enter message"></textarea>
+					</div>
+					
+					<div class="form-group">
+						<input type="submit" value="submit" class="btn btn-primary px-5">
+					</div>
+				</form>
+			</div>
+			
+           
+		
+        </div>
+		
+		
+			  
+		</div>
+		
+		 
+	</section>
+	<img src="images/map.png" class="responsive" width="100%" />	
+    <?php include '_footer.php';?>
+
+  
+    <?php include '_load_footer.php';?>
+    
+
+
+</body>
+</html>

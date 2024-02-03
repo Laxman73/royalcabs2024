@@ -1,0 +1,706 @@
+<?php
+include_once "includes/common_front.php";
+
+$PAGE_TITLE2 = 'Coach List';
+$PAGE_TITLE .= $PAGE_TITLE2;
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<?php include '_load_header.php';?>  
+		<style>
+		.coach_active {
+			color: var(--yellow)!important;
+		}
+		</style>
+    </head>
+	<body>
+    
+    <?php include '_header.php';?>
+
+	
+	<div class="hero-wrap1 ftco-degree-bg" style="background-image: url('images/coach-listing-banner.png');" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+	<div class="row  no-gutters slider-text1 justify-content-start align-items-center justify-content-center">
+
+			    
+
+			<div class="text-center heading-section mt-170">
+				<h2 class="text-white">Rent a perfect coach</h2>
+			</div>
+	
+			
+			<div class="abt-form">
+
+            <div class="d-flex gap-10">
+
+					<div class="w-30">
+						<label class="form-label text-black">From</label>
+						<div class="inputWithIcon">
+							<input type="text" placeholder="Pick-up Location">
+							<i class="loc"></i>
+						</div>
+					</div>	
+
+					<div class="w-30">
+						<label class="form-label text-black">To</label>
+						<div class="inputWithIcon">
+							<input type="text" placeholder="Drop-of Location">
+							<i class="loc"></i>
+						</div>
+					</div>			
+					
+					<div class="w-20">
+						<label class="form-label text-black">Date</label>
+						<div class="inputWithIcon">
+							<input type="date" placeholder="DD/MM/YYYY">
+							<!--<i class="date"></i>-->
+						</div>
+					</div>	
+						
+					<div class="w-20">						
+						<label class="form-label text-black">Time</label>
+						<div class="inputWithIcon">
+							<input type="time" placeholder="00:00">
+							<!--<i class="time"></i>-->
+						</div>
+					</div>
+							
+					<div class="w-20">	
+						<label class="form-label text-black">Pax</label>
+						<div class="inputWithIcon">
+							<input type="number" placeholder="00">
+							<i class="person pdx-2"></i>
+						</div>
+					</div>
+						
+					<div>	
+						<br>
+						<button class="search-btn">SEARCH</button>
+					</div>
+					
+			</div>
+
+			</div>
+					
+		
+
+ 
+    </div>
+    </div>
+    </div>
+	
+	
+	
+	
+    <section class="ftco-section contact-section">
+      <div class="container">
+        <div class="row d-flex mb-5 contact-info c-end">
+        	<div class="row col-md-3">
+		          <div class="col-md-12 p-xl-0">
+		          	<div class="w-100 mb-2 listing-card">					
+				
+						<div  class="w-100 p-w  border-bottom">		
+							<span class="float-left card-head" >Filter</span>
+							<span class="float-right text-yellow">Clear all filters</span>
+						</div>
+						
+						
+						
+						<div  class="w-100 p-3 mb-2 border-bottom">		
+						
+							<span class="float-left normal-text">Price</span>
+							<div class="price-input">
+								<div>Rs.<input class="input-min" value="00"></div>
+								<div class="text-right">Rs.<input class="input-max" value="10000"></div>
+							</div>
+						  
+							<div class="slider">
+								<div class="progress"></div>
+							</div>
+							<div class="range-input">
+								<input type="range" class="range-min" min="0" max="10000" value="00" step="100">
+								<input type="range" class="range-max" min="0" max="10000" value="10000" step="100">
+							</div>
+							
+						</div>
+						
+						
+						
+						<div  class="w-100 p-3 mb-2 border-bottom">		
+						
+							<span class="float-left normal-text">Coach type</span> <br>
+							
+
+							  <input type="radio" id="All" name="coach_type" value="All">
+							  <label for="All">All</label>
+							  <br>
+							  <input type="radio" id="luxury" name="coach_type" value="luxury">
+							  <label for="luxury">Luxury coach</label>
+							  <br>
+							  <input type="radio" id="Mini" name="coach_type" value="Mini">
+							  <label for="Mini">Mini coach</label>
+							  <br>
+							  <input type="radio" id="party" name="coach_type" value="party">
+							  <label for="party">Party bus</label>
+							  <br>
+							  <input type="radio" id="shuttle" name="coach_type" value="shuttle">
+							  <label for="shuttle">Shuttle bus</label>
+
+						</div>
+						
+						<div  class="w-100 p-3 mb-2 border-bottom">		
+						
+							<span class="float-left normal-text">Fuel Type</span> <br>
+							
+
+							  <input type="radio" id="All" name="Fuel_type" value="All">
+							  <label for="All">All</label><br>
+							  <input type="radio" id="Petrol" name="Fuel_type" value="Petrol">
+							  <label for="Petrol">Petrol</label><br>
+							  <input type="radio" id="Diesel" name="Fuel_type" value="Diesel">
+							  <label for="Diesel">Diesel</label><br>
+							  <input type="radio" id="Electric" name="Fuel_type" value="Electric">
+							  <label for="Electric">Electric</label>
+
+						</div>
+						
+						
+						<div class="w-100 p-3 mb-2 border-bottom">		
+						
+							<span class="float-left normal-text">Special features</span> <br>
+
+							  <input type="radio" id="accessibility" name="features" value="accessibility">
+							  <label for="accessibility">Wheelchair accessibility</label><br>
+							  <input type="radio" id="storage" name="features" value="storage">
+							  <label for="storage">Luggage storage</label>
+
+						</div>
+						
+						
+					
+						<div  class="w-100 p-3 mb-2 ">		
+						
+							<span class="float-left normal-text">Seating capacity</span>
+							<div class="price-input1">
+								<div><input class="input-min1" value="0"></div>
+								<div class="text-right"><input class="input-max1" value="30"></div>
+							</div>
+						  
+							<div class="slider1">
+								<div class="progress1"></div>
+							</div>
+							<div class="range-input1">
+								<input type="range" class="range-min1" min="0" max="30" value="0" step="5">
+								<input type="range" class="range-max1" min="0" max="30" value="30" step="5">
+							</div>
+							
+						</div>
+				
+					
+			        </div>
+		          </div>
+		        
+		       
+          </div>
+		  
+		  
+        <div class="col-md-9">
+		
+			<div class="d-flex gap-10 mt-10">
+
+                <div class="pd-10 w-30">
+					<span class="card-head">Available Coaches</span> 
+					<br>
+					<span class="text-blue-small">50 Coaches available</span> 
+				</div>
+				
+				<div class="abt-form1 w-50 pd-10">
+
+					<div class="d-flex1 gap-10 just-center">
+
+						<div class="inputWithIcon inputWithIcon1">
+							<input type="text" placeholder="Find a vehicle" class="border-0 input-1">
+							<i class="search"></i>
+						</div>
+						
+						<button class="search-btn">SEARCH </button>
+							
+					</div>
+
+				</div>
+				
+				<div class="abt-form1 pdx-1 w-30">
+						<label for="Sort">Sort by:</label>
+
+						<select name="Sort" id="Sort" class="border-0">
+						  <option value="1">Price high to low</option>
+						  <option value="2">Price low to high </option>
+						</select>
+                  
+				</div>
+
+			</div>
+			
+			
+			<div class="card mt-40">
+							
+				
+				<div class="d-flex">
+								
+					<img src="images/car-5.png" class="mt-10">
+								
+					<div class="container">
+					
+					    <br>
+						
+						<span class="card-tag1">Recommended</span>
+					
+						<span class="card-tag2">Special offer</span>
+					
+					
+					    <br><br>
+									
+						<span class="card-head">Vehicle name</span> 
+							
+							<div class="row">
+								<div class="column-res">
+									<i class="seat"></i><span>24 seaters</span>
+								</div>
+								<div class="column-res">
+									<i class="car-small"></i><span>Luxury coach</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="column-res">
+									<i class="fuel-pump"></i><span>Electic</span>
+								</div>
+							</div>
+						
+									
+						<br>
+										
+					</div>
+				
+
+				
+					<div class="rate-div">
+						<s class="strike-text1">RS.16000</s> 
+						<br>
+						<span class="card-head1">RS.13000</span> 
+						<br>		
+						<span class="card-p">Price for night differs</span>					
+						<a href="coach_display.php"><button class="search-btn wpx-165 mt-2">view details</button></a>
+					</div>
+				
+				
+				</div>
+								
+			</div>
+			
+			<br>
+			
+			<div class="card">
+			
+				<div class="card-tag">
+					<i class="Car-Key"></i><span class="tag-text">Available for disposal</span>
+				</div>
+			
+				<div class="d-flex">
+								
+					<img src="images/car-6.png" class="mt-10">
+								
+					<div class="container">
+					
+					    <br>
+						
+						<!--<span class="card-tag1">Recommended</span>-->
+					
+						<span class="card-tag2">Special offer</span>
+					
+					
+					    <br><br>
+									
+						<span class="card-head">Vehicle name</span> 
+									
+						<div class="row">
+							<div class="column-res">
+								<i class="seat"></i><span>22 seaters</span>
+							</div>
+							<div class="column-res">
+								<i class="car-small"></i><span>Mini Coach</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-res">
+								<i class="fuel-pump"></i><span>Electic</span>
+							</div>
+						</div>
+									
+						<br>
+										
+					</div>
+				
+
+				
+					<div class="rate-div">
+						<s class="strike-text1">RS.16000</s> 
+						<br>
+						<span class="card-head1">RS.13000</span> 
+						<br>		
+						<span class="card-p">Price for night differs</span>					
+						<button class="search-btn wpx-165 mt-2">view details</button>
+					</div>
+				
+				
+				</div>
+								
+			</div>
+			
+			<br>
+			
+			<div class="card">
+			
+			
+				<div class="card-tag">
+					<i class="Car-Key"></i><span class="tag-text">Available for disposal</span>
+				</div>
+			
+				<div class="d-flex">
+								
+					<img src="images/car-7.png" class="mt-10">
+								
+					<div class="container">
+					
+					    <br>
+						
+						<span class="card-tag1">Recommended</span>
+					
+						<span class="card-tag2">Special offer</span>
+					
+					
+					    <br><br>
+									
+						<span class="card-head">Vehicle name</span> 
+									
+						<div class="row">
+							<div class="column-res">
+								<i class="seat"></i><span>16 seaters</span>
+							</div>
+							<div class="column-res">
+								<i class="car-small"></i><span>Party Bus</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-res">
+								<i class="fuel-pump"></i><span>Petrol</span>
+							</div>
+						</div>
+									
+						<br>
+										
+					</div>
+				
+
+				
+					<div class="rate-div">
+					
+						<s class="strike-text1">RS.16000</s> 
+						<br>
+						<span class="card-head1">RS.13000</span> 
+						<br>		
+						<span class="card-p">Price for night differs</span>					
+						<button class="search-btn wpx-165 mt-2">view details</button>
+						
+					</div>
+				
+				
+				</div>
+								
+			</div>
+		
+		
+			<br>
+			
+			<div class="card">
+			
+			
+				<div class="d-flex">
+								
+					<img src="images/car-8.png" class="mt-10">
+								
+					<div class="container">
+					
+					    <br>
+						
+				
+					    <br><br>
+									
+						<span class="card-head">Vehicle name</span> 
+									
+						<div class="row">
+							<div class="column-res">
+								<i class="seat"></i><span>20 seaters</span>
+							</div>
+							<div class="column-res">
+								<i class="car-small"></i><span>Shuttle Bus</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-res">
+								<i class="fuel-pump"></i><span>Diesel</span>
+							</div>
+						</div>
+									
+						<br>
+										
+					</div>
+				
+
+				
+					<div class="rate-div">
+						<s class="strike-text1">RS.16000</s> 
+						<br>
+						<span class="card-head1">RS.13000</span> 
+						<br>		
+						<span class="card-p">Price for night differs</span>					
+						<button class="search-btn wpx-165 mt-2">view details</button>
+					</div>
+				
+				
+				</div>
+								
+			</div>
+			
+			<br>
+			
+			<div class="card">
+							
+				
+				<div class="d-flex">
+								
+					<img src="images/car-5.png" class="mt-10">
+								
+					<div class="container">
+					
+					    <br>
+						
+						<span class="card-tag1">Recommended</span>
+					
+						<span class="card-tag2">Special offer</span>
+					
+					
+					    <br><br>
+									
+						<span class="card-head">Vehicle name</span> 
+									
+						<div class="row">
+							<div class="column-res">
+								<i class="seat"></i><span>24 seaters</span>
+							</div>
+							<div class="column-res">
+								<i class="car-small"></i><span>Luxury coach</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-res">
+								<i class="fuel-pump"></i><span>Electic</span>
+							</div>
+						</div>
+									
+						<br>
+										
+					</div>
+				
+
+				
+					<div class="rate-div">
+						<s class="strike-text1">RS.16000</s> 
+						<br>
+						<span class="card-head1">RS.13000</span> 
+						<br>		
+						<span class="card-p">Price for night differs</span>					
+						<a href="car_display.php"><button class="search-btn wpx-165 mt-2">view details</button></a>
+					</div>
+				
+				
+				</div>
+								
+			</div>
+			
+			<br>
+			
+			<div class="card">
+			
+				<div class="card-tag">
+					<i class="Car-Key"></i><span class="tag-text">Available for disposal</span>
+				</div>
+			
+				<div class="d-flex">
+								
+					<img src="images/car-6.png" class="mt-10">
+								
+					<div class="container">
+					
+					    <br>
+						
+						<!--<span class="card-tag1">Recommended</span>-->
+					
+						<span class="card-tag2">Special offer</span>
+					
+					
+					    <br><br>
+									
+						<span class="card-head">Vehicle name</span> 
+									
+						<div class="row">
+							<div class="column-res">
+								<i class="seat"></i><span>22 seaters</span>
+							</div>
+							<div class="column-res">
+								<i class="car-small"></i><span>Mini Coach</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column-res">
+								<i class="fuel-pump"></i><span>Electic</span>
+							</div>
+						</div>
+									
+						<br>
+										
+					</div>
+				
+
+				
+					<div class="rate-div">
+						<s class="strike-text1">RS.16000</s> 
+						<br>
+						<span class="card-head1">RS.13000</span> 
+						<br>		
+						<span class="card-p">Price for night differs</span>					
+						<button class="search-btn wpx-165 mt-2">view details</button>
+					</div>
+				
+				
+				</div>
+								
+			</div>
+		
+		
+		
+		
+        </div>
+		  
+		  
+		  
+
+		  
+		  
+		  
+		  
+        </div>
+      </div>
+    </section>
+	
+	
+		
+    <?php include '_footer.php';?>
+
+  
+    <?php include '_load_footer.php';?>
+    
+<script>
+const rangeInput = document.querySelectorAll(".range-input input"),
+  priceInput = document.querySelectorAll(".price-input input"),
+  range = document.querySelector(".slider .progress");
+let priceGap = 1000;
+
+priceInput.forEach((input) => {
+  input.addEventListener("input", (e) => {
+    let minPrice = parseInt(priceInput[0].value),
+      maxPrice = parseInt(priceInput[1].value);
+
+    if (maxPrice - minPrice >= priceGap && maxPrice <= rangeInput[1].max) {
+      if (e.target.className === "input-min") {
+        rangeInput[0].value = minPrice;
+        range.style.left = (minPrice / rangeInput[0].max) * 100 + "%";
+      } else {
+        rangeInput[1].value = maxPrice;
+        range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+      }
+    }
+  });
+});
+
+rangeInput.forEach((input) => {
+  input.addEventListener("input", (e) => {
+    let minVal = parseInt(rangeInput[0].value),
+      maxVal = parseInt(rangeInput[1].value);
+
+    if (maxVal - minVal < priceGap) {
+      if (e.target.className === "range-min") {
+        rangeInput[0].value = maxVal - priceGap;
+      } else {
+        rangeInput[1].value = minVal + priceGap;
+      }
+    } else {
+      priceInput[0].value = minVal;
+      priceInput[1].value = maxVal;
+      range.style.left = (minVal / rangeInput[0].max) * 100 + "%";
+      range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
+    }
+  });
+});
+
+</script>
+
+
+<script>
+const rangeInput1 = document.querySelectorAll(".range-input1 input"),
+  priceInput1 = document.querySelectorAll(".price-input1 input"),
+  range1 = document.querySelector(".slider1 .progress1");
+let priceGap1 = 5;
+
+priceInput1.forEach((input) => {
+  input.addEventListener("input", (e) => {
+    let minPrice1 = parseInt(priceInput1[0].value),
+      maxPrice1 = parseInt(priceInput1[1].value);
+
+    if (maxPrice1 - minPrice1 >= priceGap1 && maxPrice1 <= rangeInput1[1].max) {
+      if (e.target.className === "input-min1") {
+        rangeInput1[0].value = minPrice1;
+        range1.style.left = (minPrice1 / rangeInput1[0].max) * 100 + "%";
+      } else {
+        rangeInput1[1].value = maxPrice1;
+        range1.style.right = 100 - (maxPrice1 / rangeInput1[1].max) * 100 + "%";
+      }
+    }
+  });
+});
+
+rangeInput1.forEach((input) => {
+  input.addEventListener("input", (e) => {
+    let minVal = parseInt(rangeInput1[0].value),
+      maxVal = parseInt(rangeInput1[1].value);
+
+    if (maxVal - minVal < priceGap1) {
+      if (e.target.className === "range-min1") {
+        rangeInput1[0].value = maxVal - priceGap1;
+      } else {
+        rangeInput1[1].value = minVal + priceGap1;
+      }
+    } else {
+      priceInput1[0].value = minVal;
+      priceInput1[1].value = maxVal;
+      range1.style.left = (minVal / rangeInput1[0].max) * 100 + "%";
+      range1.style.right = 100 - (maxVal / rangeInput1[1].max) * 100 + "%";
+    }
+  });
+});
+
+</script>
+
+</body>
+</html>

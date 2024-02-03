@@ -1,0 +1,20 @@
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+}
+.form-control.is-invalid, .was-validated .form-control:invalid 
+{
+  background-image: none !important;
+}
+.form-control.is-valid, .was-validated .form-control:valid 
+{
+  background-image: none !important;
+}
+
+textarea
+{
+  height: 200px !important;
+}

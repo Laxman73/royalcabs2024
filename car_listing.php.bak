@@ -1,0 +1,528 @@
+<?php
+include_once "includes/common_front.php";
+
+$PAGE_TITLE2 = 'Car List';
+$PAGE_TITLE .= $PAGE_TITLE2;
+
+$dataArray = array();
+if (isset($_GET['filter']) && $_GET['filter'])
+{
+	$r = sql_query("SELECT * FROM ");
+	$dataArray = sql_get_data($r);
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<?php include '_load_header.php';?>  
+		<style>
+		.car_active {
+			color: var(--yellow)!important;
+		}
+		</style>
+    </head>
+	<body>
+    
+    <?php include '_header.php';?>
+	<form class="" name="carList" id="carList" action="" method="get">
+	
+	<div class="hero-wrap1 ftco-degree-bg" style="background-image: url('images/car-listing-banner.png');" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+	<div class="row no-gutters slider-text1 justify-content-start align-items-center justify-content-center">
+
+			<div class="text-center heading-section mt-170">
+				<h2 class="text-white">Rent a perfect car</h2>
+			</div>
+
+			<div class="abt-form">
+
+            <div class="d-flex gap-10">
+
+					<div class="w-30">
+						<label class="form-label text-black">From</label>
+						<div class="inputWithIcon">
+							<input type="text" placeholder="Pick-up Location">
+							<i class="loc"></i>
+						</div>
+					</div>	
+
+					<div class="w-30">
+						<label class="form-label text-black">To</label>
+						<div class="inputWithIcon">
+							<input type="text" placeholder="Drop-of Location">
+							<i class="loc"></i>
+						</div>
+					</div>			
+					
+					<div class="w-20">
+						<label class="form-label text-black">Date</label>
+						<div class="inputWithIcon">
+							<input type="date" placeholder="DD/MM/YYYY">
+							<!--<i class="date"></i>-->
+						</div>
+					</div>	
+						
+					<div class="w-20">						
+						<label class="form-label text-black">Time</label>
+						<div class="inputWithIcon">
+							<input type="time" placeholder="00:00">
+							<!--<i class="time"></i>-->
+						</div>
+					</div>
+							
+					<div class="w-20">	
+						<label class="form-label text-black">Pax</label>
+						<div class="inputWithIcon">
+							<input type="number" placeholder="00">
+							<i class="person pdx-2"></i>
+						</div>
+					</div>
+						
+					<div>	
+						<br>
+						<button type="submit" name="filter" value="1" class="search-btn">SEARCH</button>
+					</div>
+					
+			</div>
+
+			</div>
+
+    </div>
+    </div>
+    </div>
+	
+	
+	
+	
+    <section class="ftco-section contact-section">
+      <div class="container">
+        <div class="row d-flex mb-5 contact-info c-end">
+        	<div class="row col-md-3">
+		          <div class="col-md-12 p-xl-0">
+		          	<div class="w-100 mb-2 listing-card">					
+				
+						<div  class="w-100 p-w  border-bottom">		
+							<span class="float-left card-head" >Filter</span>
+							<span class="float-right text-yellow">Clear all filters</span>
+						</div>
+						
+						
+						
+						<div  class="w-100 p-3 mb-2 border-bottom">		
+							<span class="float-left normal-text">Price</span>
+							
+
+						  <div class="price-input">
+						 
+							  <div>Rs.<input class="input-min" value="00"></div>
+							  
+							  <div class="text-right">Rs.<input class="input-max" value="10000"></div>
+							
+						 
+						  </div>
+						  
+						  <div class="slider">
+							<div class="progress"></div>
+						  </div>
+						  <div class="range-input">
+							<input type="range" class="range-min" min="0" max="10000" value="00" step="100">
+							<input type="range" class="range-max" min="0" max="10000" value="10000" step="100">
+						  </div>
+  
+							
+							
+						</div>
+						
+						
+						
+						<div  class="w-100 p-3 mb-2 border-bottom">		
+						
+							<span class="float-left normal-text">Car type</span> <br>
+							
+
+							  <input type="radio" id="All" name="Car_type" value="All">
+							  <label for="All">All</label><br>
+							  <input type="radio" id="Sedan" name="Car_type" value="Sedan">
+							  <label for="Sedan">Sedan</label><br>
+							  <input type="radio" id="Hatchback" name="Car_type" value="Hatchback">
+							  <label for="Hatchback">Hatchback</label><br>
+							  <input type="radio" id="Sports" name="Car_type" value="Sports">
+							  <label for="Sports">Sports</label>
+
+						</div>
+						
+						<div  class="w-100 p-3 mb-2 border-bottom">		
+						
+							<span class="float-left normal-text">Fuel Type</span> <br>
+							
+
+							  <input type="radio" id="All" name="Fuel_type" value="All">
+							  <label for="All">All</label><br>
+							  <input type="radio" id="Petrol" name="Fuel_type" value="Petrol">
+							  <label for="Petrol">Petrol</label><br>
+							  <input type="radio" id="Diesel" name="Fuel_type" value="Diesel">
+							  <label for="Diesel">Diesel</label><br>
+							  <input type="radio" id="Electric" name="Fuel_type" value="Electric">
+							  <label for="Electric">Electric</label>
+
+						</div>
+						
+						
+						<div  class="w-100 p-3 mb-2">		
+						
+							<span class="float-left normal-text">Transmission</span> <br>
+
+							  <input type="radio" id="All" name="Transmission" value="All">
+							  <label for="All">All</label><br>
+							  <input type="radio" id="Auto" name="Transmission" value="Auto">
+							  <label for="Auto">Auto</label><br>
+							  <input type="radio" id="Manual" name="Manual" value="Manual">
+							  <label for="Manual">Manual</label>
+
+						</div>
+						
+						
+					
+				<!--<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">-->
+				
+					
+			        </div>
+		          </div>
+		        
+		       
+          </div>
+		  
+		  
+        <div class="col-md-9">
+		
+			<div class="d-flex gap-10 mt-10">
+
+                <div class="pd-10 w-20">
+					<span class="card-head">Available cars</span> 
+					<br>
+					<span class="text-blue-small">50 cars available</span> 
+				</div>
+				
+				<div class="abt-form1 w-50 pd-10">
+
+					<div class="d-flex1 gap-10 just-center">
+
+						<div class="inputWithIcon inputWithIcon1">
+							<input type="text" placeholder="Find a vehicle" class="border-0 input-1">
+							<i class="search"></i>
+						</div>
+						
+						<button type="submit" name="filter" value="1" class="search-btn">SEARCH </button>
+							
+					</div>
+
+				</div>
+				
+				<div class="abt-form1 pdx-1 w-30">
+						<label for="Sort">Sort by:</label>
+
+						<select name="Sort" id="Sort" class="border-0">
+						  <option value="1">Price high to low</option>
+						  <option value="2">Price low to high </option>
+						</select>
+                  
+				</div>
+
+			</div>
+			
+			
+			<div class="card mt-40">
+							
+				<div class="card-tag">
+					<i class="Car-Key"></i><span class="tag-text">Available for disposal</span>
+				</div>
+				
+				<div class="d-flex">
+								
+					<img src="images/car-1.png" class="mt-10">
+								
+					<div class="container">
+					
+					    <br>
+						
+						<span class="card-tag1">Recommended</span>
+					
+						<span class="card-tag2">Special offer</span>
+					
+					
+					    <br><br>
+									
+						<span class="card-head">Vehicle name</span> 
+									
+							<div class="row">
+								<div class="column-res">
+									<i class="seat"></i><span>4 seaters</span>
+								</div>
+								<div class="column-res">
+									<i class="car-small"></i><span>Sedan</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="column-res">
+									<i class="fuel-pump"></i><span>Electic</span>
+								</div>
+								<div class="column-res">
+									<i class="airbag"></i><span>Air bags</span>
+								</div>
+							</div>
+									
+						<br>
+										
+					</div>
+				
+
+				
+					<div class="rate-div">
+						<s class="strike-text1">RS.6000</s> 
+						<br>
+						<span class="card-head1">RS.3000</span> 
+						<br>		
+						<span class="card-p">Price for night differs</span>					
+						<a href="car_display.php"><button class="search-btn wpx-165 mt-2">view details</button></a>
+					</div>
+				
+				
+				</div>
+								
+			</div>
+			
+			<br>
+			
+			<div class="card">
+			
+				<div class="d-flex">
+								
+					<img src="images/car-2.png" class="mt-10">
+								
+					<div class="container">
+					
+					    <br>
+						
+						<!--<span class="card-tag1">Recommended</span>-->
+					
+						<span class="card-tag2">Special offer</span>
+					
+					
+					    <br><br>
+									
+						<span class="card-head">Vehicle name</span> 
+									
+							<div class="row">
+								<div class="column-res">
+									<i class="seat"></i><span>4 seaters</span>
+								</div>
+								<div class="column-res">
+									<i class="car-small"></i><span>Sedan</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="column-res">
+									<i class="fuel-pump"></i><span>Electic</span>
+								</div>
+								<div class="column-res">
+									<i class="airbag"></i><span>Air bags</span>
+								</div>
+							</div>
+									
+						<br>
+										
+					</div>
+				
+
+				
+					<div class="rate-div">
+						<s class="strike-text1">RS.6000</s> 
+						<br>
+						<span class="card-head1">RS.3000</span> 
+						<br>		
+						<span class="card-p">Price for night differs</span>					
+						<a href="car_display.php"><button class="search-btn wpx-165 mt-2">view details</button></a>
+					</div>
+				
+				
+				</div>
+								
+			</div>
+			
+			<br>
+			
+			<div class="card">
+			
+			
+				<div class="card-tag">
+					<i class="Car-Key"></i><span class="tag-text">Available for disposal</span>
+				</div>
+			
+				<div class="d-flex">
+								
+					<img src="images/car-3.png" class="mt-10">
+								
+					<div class="container">
+					
+					    <br>
+						
+						<span class="card-tag1">Recommended</span>
+					
+						<span class="card-tag2">Special offer</span>
+					
+					
+					    <br><br>
+									
+						<span class="card-head">Vehicle name</span> 
+									
+							<div class="row">
+								<div class="column-res">
+									<i class="seat"></i><span>4 seaters</span>
+								</div>
+								<div class="column-res">
+									<i class="car-small"></i><span>Sedan</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="column-res">
+									<i class="fuel-pump"></i><span>Electic</span>
+								</div>
+								<div class="column-res">
+									<i class="airbag"></i><span>Air bags</span>
+								</div>
+							</div>
+									
+						<br>
+										
+					</div>
+
+					<div class="rate-div">
+						<s class="strike-text1">RS.6000</s> 
+						<br>
+						<span class="card-head1">RS.3000</span> 
+						<br>		
+						<span class="card-p">Price for night differs</span>					
+						<a href="car_display.php"><button class="search-btn wpx-165 mt-2">view details</button></a>
+					</div>
+
+				</div>
+
+			</div>
+
+		<br>
+			
+			<div class="card">
+
+				<div class="card-tag">
+					<i class="Car-Key"></i><span class="tag-text">Available for disposal</span>
+				</div>
+			
+				<div class="d-flex">
+								
+					<img src="images/car-4.png" class="mt-10">
+								
+					<div class="container">
+					
+					    <br>
+						
+						<span class="card-tag1">Recommended</span>
+					
+						<span class="card-tag2">Special offer</span>
+
+					    <br><br>
+
+						<span class="card-head">Vehicle name</span> 
+									
+							<div class="row">
+								<div class="column-res">
+									<i class="seat"></i><span>4 seaters</span>
+								</div>
+								<div class="column-res">
+									<i class="car-small"></i><span>Sedan</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="column-res">
+									<i class="fuel-pump"></i><span>Electic</span>
+								</div>
+								<div class="column-res">
+									<i class="airbag"></i><span>Air bags</span>
+								</div>
+							</div>
+									
+						<br>
+										
+					</div>
+
+					<div class="rate-div">
+						<s class="strike-text1">RS.6000</s> 
+						<br>
+						<span class="card-head1">RS.3000</span> 
+						<br>		
+						<span class="card-p">Price for night differs</span>					
+						<a href="car_display.php"><button class="search-btn wpx-165 mt-2">view details</button></a>
+					</div>
+				
+				
+				</div>
+
+			</div>
+
+        </div>
+
+        </div>
+      </div>
+    </section>
+	</form>
+
+    <?php include '_footer.php';?>
+    <?php include '_load_footer.php';?>
+    
+<script>
+const rangeInput = document.querySelectorAll(".range-input input"),
+  priceInput = document.querySelectorAll(".price-input input"),
+  range = document.querySelector(".slider .progress");
+let priceGap = 1000;
+
+priceInput.forEach((input) => {
+  input.addEventListener("input", (e) => {
+    let minPrice = parseInt(priceInput[0].value),
+      maxPrice = parseInt(priceInput[1].value);
+
+    if (maxPrice - minPrice >= priceGap && maxPrice <= rangeInput[1].max) {
+      if (e.target.className === "input-min") {
+        rangeInput[0].value = minPrice;
+        range.style.left = (minPrice / rangeInput[0].max) * 100 + "%";
+      } else {
+        rangeInput[1].value = maxPrice;
+        range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+      }
+    }
+  });
+});
+
+rangeInput.forEach((input) => {
+  input.addEventListener("input", (e) => {
+    let minVal = parseInt(rangeInput[0].value),
+      maxVal = parseInt(rangeInput[1].value);
+
+    if (maxVal - minVal < priceGap) {
+      if (e.target.className === "range-min") {
+        rangeInput[0].value = maxVal - priceGap;
+      } else {
+        rangeInput[1].value = minVal + priceGap;
+      }
+    } else {
+      priceInput[0].value = minVal;
+      priceInput[1].value = maxVal;
+      range.style.left = (minVal / rangeInput[0].max) * 100 + "%";
+      range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
+    }
+  });
+});
+
+</script>
+
+</body>
+</html>

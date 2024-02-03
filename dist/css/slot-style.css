@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Fira Sans', sans-serif !important;
+}
+
+.bg-site{
+    background:#ededed !important;
+}
+.bg-white{
+    background:#fff !important;
+}
+.bg-maroon{
+        background: #b10c2e !important;
+        border-color: #b10c2e !important;
+}
+.antialiased .text-muted {
+    color: #556575 !important;
+}
+.antialiased .text-red {
+    color: #a51533 !important;
+}
+
+.antialiased .text-head{
+    color:#333333 !important;
+}
+
+
+.ft-w400{
+    font-weight: 400 !important;
+}
+.site-title{
+	font-weight: 700 !important;
+    font-size: 19px !important;
+    line-height: 25px !important;
+}
+.site-title2{
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+}
+
+.site-title3{
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+}
+.font-13{
+	font-size: 13px !important;
+	line-height: 14px !important;
+    padding: 10px !important;
+}
+.font-11{
+        font-size: 11px !important;
+        line-height: 12px;
+}
+.text-right{
+        text-align: right;
+}
+
+.text-left{
+        text-align: left;
+}
+input.placeholder-size::-webkit-input-placeholder{
+    font-size: 70px !important;
+    line-height: 60px !important;
+    line-height: 3;
+    color:#e2e2e2;
+}
+
+.plable{
+	margin-bottom: .5rem;
+    font-size: .875rem;
+    font-weight: 500;
+}
+.plable strong{
+	font-weight: 800;
+}
+
+
+.plable2{
+    margin-bottom: .5rem;
+    font-size: .775rem;
+    line-height: 17px;
+    font-weight: 500;
+}
+.plable3{
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+/*Header*/
+.navbar-toggler {
+    border: 0;
+    width: 1.3rem !important;
+    height: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.slot-header.navbar-expand-md .navbar-toggler {
+    display: block !important;
+}
+.slot-header.navbar-expand-md .navbar-collapse {
+    flex-direction: column;
+    display: none !important;
+}
+.navbar-expand-md .navbar-collapse [class^=container] {
+    flex-direction: column;
+    align-items: stretch;
+}
+.navbar-expand-md .navbar-collapse .navbar-nav {
+    margin-left: calc(-1 * var(--tblr-gutter-x,1.5rem));
+    margin-right: calc(-1 * var(--tblr-gutter-x,1.5rem));
+}*/
+
+.navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-right: 1rem;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+.navbar-brand-image {
+    display: block;
+    height: 3rem !important;
+}
+
+/*FOOTER*/
+.page-link:focus {
+    background: none;
+    border:none;
+}
+
+/*Dashboard*/
+.select-group-edit .form-selectgroup-input[type=radio]+.form-selectgroup-label .form-selectgroup-check{
+	background: transparent;
+    border: transparent !important;
+}
+.select-group-edit .form-selectgroup-label{
+	    padding: 9px !important;
+}
+.select-group-edit .form-selectgroup-input:checked+.form-selectgroup-label{
+
+    background: #206bc4;
+    border-color: #cbcbcb;
+    border-width: 1px;
+    color: #fff !important;
+}
+.select-group-edit .form-selectgroup-input:checked+.form-selectgroup-label .slot-date-time{
+    color: #fff !important;
+}
+/*    background: #fff1f4;
+    border-color: #cbcbcb;
+    border-width: 1px;*/
+.select-group-edit .me-3{
+	display: none;
+}
+.select-group-edit .form-selectgroup-item {
+    margin: 0 0 17px !important;
+}
+.slot-date-time{
+	width: 100%;
+	text-align: center;
+}
+
+.form-button-group {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #ffffff;
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: env(safe-area-inset-bottom);
+    box-shadow: 0px 4px 8px 2px rgb(111 111 111 / 48%);
+
+}
+
+.marginl-10{
+    margin-left: 10px;
+}
+.m-15{
+    margin:0 15px;
+}
+.margint-5{
+    margin-top: 5px !important;
+}
+.cancel-add{
+    cursor: pointer;
+    background: transparent !important;
+    border: 0 !important;  
+    text-decoration: underline;
+}
+.l22{
+        line-height: 22px;
+}
+
+
+/*SELECT DATE*/
+.select-date .form-selectgroup .card{
+  width: 100%;
+  border:0 !important;
+  background: transparent;
+  border-radius: 0 !important;
+}
+.select-date .form-selectgroup .form-selectgroup-label{
+  padding:0 !important;
+  border-radius: 8px;
+} 
+.select-date .form-selectgroup .card .month{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #646464 !important;
+}
+.select-date .form-selectgroup .card .h1{
+    font-size: 43px;
+    line-height: 45px;
+    font-weight: 800;
+    color: #404040
+}
+.select-date .form-selectgroup .card .year{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #646464 !important;
+    letter-spacing: 5px;
+}
+.select-date .form-selectgroup .card .itime{
+    background: #a51533;
+    color: #fff !important;
+    padding: 7px 2px;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 500;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.select-date.select-group-edit .form-selectgroup-input:checked+.form-selectgroup-label {
+    background: #a51533 !important;
+    border-color: #a51533 !important;
+    border-width: 1px;
+    color: #fff !important;
+}
+.select-date.select-group-edit .form-selectgroup-input:checked+.form-selectgroup-label .month,
+.select-date.select-group-edit .form-selectgroup-input:checked+.form-selectgroup-label .h1,
+.select-date.select-group-edit .form-selectgroup-input:checked+.form-selectgroup-label .year{
+    color: #fff !important
+}
+.select-date.select-group-edit .form-selectgroup-input:checked+.form-selectgroup-label .itime
+{
+    background: #000 !important;
+    color: #ffc721 !important;
+}
+
+@media screen and (max-width: 767px)
+{
+.navbar-brand{
+    position: absolute;
+    left: 52px;
+}
+}
+@media screen and (max-width: 576px){
+    .select-date .col-sm-4{
+        flex: 0 0 auto;
+        width: 33.3333333%;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .navbar-brand-image {
+    display: block;
+    height: 2.5rem !important;
+}
+}

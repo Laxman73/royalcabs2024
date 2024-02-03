@@ -1,0 +1,38 @@
+<form action="" id="formINCLUDE" name="formINCLUDE" method="post">
+  <input type="hidden" id="mode" name="mode" value=""/>
+  <input type="hidden" id="txtid" name="txtid" value=""/>
+  <input type="hidden" id="user_token" name="user_token" value="<?php echo $sess_user_token; ?>"/>
+</form>
+<script>
+function SubmitIncludeForm(action,mode,id,txt)
+{
+		
+
+	if(str_trim(action)=='')
+	{
+		alert('Invalid Form Action');
+		return false;
+	}
+
+	if(str_trim(mode)=='')
+	{
+		alert('Invalid Form Mode');
+		return false;
+	}
+
+	if(str_trim(id)=='')
+	{
+		alert('Invalid Form ID');
+		return false;
+	}
+
+var frm=document.getElementById("formINCLUDE");
+	frm.action = action;
+	frm.mode.value = mode;
+	frm.txtid.value = id;
+	
+	var msg = "You Are About To Delete this " + txt + "! Continue?";
+	if(confirm(msg))
+		frm.submit();
+}
+</script>

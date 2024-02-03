@@ -1,0 +1,243 @@
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+}
+.form-control.is-invalid, .was-validated .form-control:invalid 
+{
+  background-image: none !important;
+}
+.form-control.is-valid, .was-validated .form-control:valid 
+{
+  background-image: none !important;
+}
+
+textarea
+{
+  height: 200px !important;
+}
+
+
+/*11-12-2020*/
+.clear{clear:both;}
+.mar-auto{
+
+    margin: 0 auto;
+
+}
+.vertical-nav-menu i.metismenu-icon, .vertical-nav-menu i.metismenu-state-icon {
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -17px;
+    font-size: 1.5rem;
+    opacity: 1;
+    color: #6b6b6b;
+    transition: color .3s;
+    font-weight: 600;
+}
+.week-outer .card-header-tab{
+	height: 2.5rem;
+	padding-left: 10px;
+}
+.week-outer .card-header-tab  .card-header-title{
+	font-size: 11px !important;
+    text-transform: uppercase !important;
+    color: #fff;
+    background: #434343;
+    padding: 3px 7px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+.week-outer .dropdown-menu-header .dropdown-menu-header-inner {
+    margin: -1px -1px 0;
+    padding: 0.5rem .5rem;
+    position: relative;
+}
+
+.week-outer .inside-card.card-body {
+    flex: 1 1 auto;
+    padding: 9px 10px;
+    border-bottom: 1px dotted #b3b3b3;
+    margin: 0 0px;
+}
+.week-outer .inside-card .card-title {
+    color: #252525;
+    margin: 0 0 3px;
+    font-size: 12px;
+}
+.week-outer .inside-card p {
+    /*width: 30%;*/
+    float: left;
+    color: #8e8e8e;
+    margin: 0;
+    line-height: 13px;
+    padding: 0 5px 0 0px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.week-outer .vertical-time-simple .timeline-title {
+    font-size: 13px;
+    line-height: 14px;
+}
+.week-outer .menu-header-title {
+    font-size: 18px !important;
+    line-height: 20px;
+}
+.week-outer .inside-card p span {
+    color: #237eed;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 0 0 4px;
+}
+.week-outer .vertical-without-time .vertical-timeline-element-content {
+    margin-left: 28px;
+}
+.week-outer  .week-col{
+	/*max-width: 200px !important;
+    min-width: 318px !important;*/
+     width: 20%;
+    flex: 0 0 auto;
+    max-width: none;
+}
+
+.vertical-time-simple .timeline-title {
+    text-transform: none;
+    margin: 0 0 3px;
+    font-weight: 600;
+    color: #252525 !important;
+    opacity: 1;
+}
+.vertical-time-simple p {
+    width:50% !important;
+    padding:0 !important;
+}
+.vertical-time-simple p:nth-child(1) {
+    float: left;
+}
+.vertical-time-simple p:nth-child(2) {
+    float: right;
+}
+
+
+
+.week-cover .menu-header-subtitle{padding: 0  0 11px}
+
+
+.view_exercise{
+position: relative;
+height: 20px;
+width: 95px;
+color: #fff;
+margin: 0px auto;
+padding: 3px 4px;
+border-radius: 20px;
+font-size: 12px;
+line-height: 12px;
+background: #000;
+left: 0;
+top: -10px;
+z-index: 111;
+text-align: center;
+}
+/*.week-cover{
+    overflow-y: scroll;
+}
+.week-outer {
+    flex-wrap: nowrap;
+    width: 200px;
+    margin: 0 !important;
+}
+*/
+
+/**/
+.work-schedule .dropdown-menu-header-inner{
+        padding: 8px 0;
+}
+.work-schedule .vertical-timeline-element-content h5{
+    margin: 0 12px 0 0px;
+}
+.work-schedule .vertical-timeline-element-content{
+    padding: 0 0 4px;
+}
+.exe-time, .timetitle{
+   margin: 0 0 4px;
+}
+.work-schedule .inside-card p{
+    margin: 0 11px 0 0;
+    display: inline-flex;
+    width: 58px !important;
+    color: #8e8e8e;
+    margin: 0;
+    line-height: 14px;
+    padding: 0;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.work-schedule .inside-card p span {
+    color: #237eed;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 0 0 4px;
+}
+.work-schedule .inside-card.card-body {
+    flex: 1 1 auto;
+    padding: 9px 10px;
+    border-bottom: 1px dotted #b3b3b3;
+    margin: 0 13px;
+}
+.work-schedule .ex-imgs img{
+        margin: 3px 10px;
+}
+.change-status{
+    text-align: center;
+}
+
+.change-status button{
+    padding: 0px 13px 3px;
+    height: 29px;
+    line-height: 13px;
+    font-size: 13px;
+    margin: 0px 0 11px !important;
+}
+
+.new-alert.alert{
+        margin: 0 0 12px;
+    padding: 8px 10px;
+    line-height: 13px;
+    font-size: 13px;
+}
+.date-table{
+    margin: 2px 0 0 !important;
+}
+.date-status{
+     margin: 0px 0 0 !important;
+}
+
+.avatar-icon{
+    width: 200px !important;
+    height: 200px !important;
+    display: flex !important;
+    vertical-align: center !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    border: 1px solid #cacaca;
+}
+.avatar-icon img {
+    width: 100%;
+    height: auto !important; 
+}
+@media (max-width: 1412px){
+    .week-outer .week-col {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+}
