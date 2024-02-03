@@ -126,7 +126,7 @@ $html='';
 										$html.='<span class="card-head1">Rs '.$price.'</span>';
 										$html.='<br>';
 										$html.='<span class="card-p">Price for night differs</span>';
-										//<a href="<?php echo $URL_CARLDISPLAY . '?cmbfrom=' . $cmbfrom . '&cmbto=' . $cmbto . '&txtdate=' . $txtdate . '&cmbtime=' . $cmbtime . '&cmbpasses=' . $cmbpasses.'&vehicle_id='.$row->iVehicleID; ?>"><button type="button" class="search-btn wpx-165 mt-2">view details</button></a>
+										
 										$html.='<a href="'. $URL_CARLDISPLAY.'?cmbfrom='.$cmbfrom.'&cmbto='.$cmbto.'&txtdate=' . $txtdate . '&cmbtime=' . $cmbtime . '&cmbpasses=' . $cmbpasses.'&vehicle_id='.$row->iVehicleID.'"><button type="button" class="search-btn wpx-165 mt-2">view details</button></a>
 									</div>
 								</div>
